@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,body{
+	height:100%;
+	width:100%;
+}
+.hero{
+	background-image:url("../img/01.jpg");
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	height:93vh;
+	
+	
+}
+.img02{
+	height:600px;
+	background-image:url("../img/02.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img03{
+	height:600px;
+	background-image:url("../img/03.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.icon1{
+	font-size:60px;
+}
+.project-img{
+	width:100%;
+	height:100%;
+	
+}
+.p-img-1, .p-img-2{
+	height:300px;
+}
+
+@media screen and (max-width:480px) and (min-width:320px){
+	.proj01{
+		margin-top:20px;
+	}
+}
