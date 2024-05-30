@@ -8,6 +8,9 @@ html,body{
 	height:100%;
 	width:100%;
 }
+body{
+	overflow-x:hidden;
+}
 .hero{
 	background-image:url("../img/01.jpg");
 	background-size:cover;
